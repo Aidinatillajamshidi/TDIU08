@@ -3,18 +3,18 @@ Problem Solving and Programming
 Linköpings universitet
 2021
 
-Kursinnehåll:
+Course content:
 
--Grundläggande typer / variabler
--Enkel inmatning/utmatning
--Satser och operatorer
--Abstraktion med underprogram
--Filuppdelning/moduluppdelning
--Rekursion
--Slumptal
--Kommandoradsargument
--Abstraktion med enkla sammansatta datatyper
--Felhantering/undantag
--Jämförelse och övergång mellan språk
--Pekare och minneshantering
--Filer och strömmar 
+- Basic types and variabels
+- Basic input and output
+- Statements and operators
+- Abstraction using subroutinees
+- Code modules using file separation
+- Recursion
+- Random numbers
+- Command line arguments
+- Abstraction using composed types
+- Error handling/exceptions
+- Pointers and memory management
+- Files and streams
+- Comparison of and progression to a second language
