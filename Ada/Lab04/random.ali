@@ -1,0 +1,155 @@
+V "GNAT Lib v10"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U random%b		random.adb		05683a50 NE OO SU KM
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20210408115627 76789da1 ada%s
+D a-except.ads		20210408115627 a7106115 ada.exceptions%s
+D a-flteio.ads		20210408115627 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20210408115627 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210408115627 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210408115627 bb51c45a ada.numerics%s
+D a-nudira.ads		20210408115627 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20210408115627 72908cdb ada.numerics.discrete_random%b
+D a-nuflra.ads		20210408115627 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20210408115627 119b8fb3 ada.streams%s
+D a-tags.ads		20210408115627 491b781d ada.tags%s
+D a-textio.ads		20210408115627 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210408115627 bf196650 ada.text_io.float_io%s
+D a-tiinio.ads		20210408115627 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210408115627 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210408115627 5ab55268 interfaces%s
+D i-cstrea.ads		20210408115627 e53d8b8e interfaces.c_streams%s
+D random.adb		20211102152113 8deed7ac random%b
+D system.ads		20210408115627 4635ec04 system%s
+D s-crtl.ads		20210408115627 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210408115627 54135002 system.exception_table%s
+D s-ficobl.ads		20210408115627 078245e4 system.file_control_block%s
+D s-imguns.ads		20210408115627 9ff43cf7 system.img_uns%s
+D s-parame.ads		20210408115627 48ec542b system.parameters%s
+D s-rannum.ads		20210408115627 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20210408115627 20ba1217 system.random_numbers%b
+D s-ransee.ads		20210408115627 01a57b33 system.random_seed%s
+D s-secsta.ads		20210408115627 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210408115627 a7318a92 system.soft_links%s
+D s-stache.ads		20210408115627 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210408115627 09bd3940 system.standard_library%s
+D s-stoele.ads		20210408115627 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210408115627 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210408115627 34867c83 system.unsigned_types%s
+D s-valuns.ads		20210408115627 35067db9 system.val_uns%s
+D s-wchcon.ads		20210408115627 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [random standard 9 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|2r6 2r49 3r6 3r49 4r6 4r49 5r6 6r6 6r49 12r28 16r23 59r40
+. 127r32 165r42 186r16
+X 3 a-flteio.ads
+20K13*Float_Text_IO[13|46] 18|4w10 4r53
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 18|3w10 3r53
+X 6 a-numeri.ads
+16K13*Numerics 32e17 18|5r10 6r10 6r53 12r32 16r27 59r44 127r36 165r46 186r20
+X 7 a-nudira.ads
+44k22*Discrete_Random 75e33 18|5w19 12r41 16r36 127r45
+50R9 Generator<25|63R9> 18|25r24[12] 95r18[16] 130r30[127] 187r22[12] 188r15[16]
+52V13 Random{integer} 18|36s15[12] 100s12[16] 101s12[16] 141s17[127]
+X 8 a-nudira.adb
+53V16 Random[25|83]{character} 26|392b13[18|16]
+X 9 a-nuflra.ads
+41K22*Float_Random 74e30 18|6w19 6r62 59r53 165r55 186r29
+47R9*Generator<25|63R9> 18|59r66 165r68 186r42
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<25|71p13> 18|69s12 172s14
+X 12 a-textio.ads
+57K13*Text_IO 727e16 18|2w10 2r53
+86I12*Field{integer}
+264U14*New_Line 18|51s7 65s7 67s7 104s7 106s7 111s7 155s7 174s7 197s4 201s4
+392U14*Put 18|108s7 110s7 113s7 115s7 119s10
+465U14*Put 18|52s7 54s7 66s7 68s7 105s7 107s7 109s7 112s7 114s7 116s7 118s10
+. 156s7 158s7 160s7 175s7 177s7 179s7 194s4 199s4 203s4
+X 13 a-tiflio.ads
+60U14*Get 18|176s7[3|20] 178s7[3|20]
+82U14*Put 18|70s7[3|20] 181s7[3|20]
+84i7 Fore{12|86I12} 18|70r14[3|20] 181r16[3|20]
+85i7 Aft{12|86I12} 18|70r25[3|20] 181r27[3|20]
+86i7 Exp{12|86I12} 18|70r35[3|20] 181r37[3|20]
+X 14 a-tiinio.ads
+59U14*Get 18|53s7[4|18] 157s7[4|18] 159s7[4|18]
+80U14*Put 18|55s7[4|18] 161s7[4|18]
+82i7 Width{12|86I12} 18|55r36[4|18] 161r34[4|18]
+X 16 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 18 random.adb
+9U11*Random 9b11 208l5 208t11
+11I12 Dice{integer} 12r57
+12K12 Min_Dice[7|44] 13r8 25r15 187r13
+15E12 Az{character} 16r52
+16K12 Aoz[7|44] 17r8 95r14 188r11
+20V13 Calculate_Dice{integer} 20b13 20=28 42l8 42t22 55s11
+20i28 tarning{integer} 35r19
+22i7 T{integer} 30m7 36m10 37r23
+23i7 N{integer} 29m7
+24i7 Sum{integer} 31m7 37m10 37r17 40r14
+25r7 G_Dice{7|50R9[12]} 36r22
+35i11 I{integer}
+45U14 Tarning 45b14 57l8 57t15 195s4
+47i7 tarning{integer} 53m11 55m26 55r26
+59U14 Ett_Hundra 59b14 59>25 72l8 72t18 196s4
+59r25 G_Flyttal{9|47R9} 69r19
+61f7 A{float} 69m7 70r11
+74U14 Swap 74b14 74=19 74=22 89l8 89t12 102s7
+74e19 A{character} 80r10 81r18 82m10 84r13 85m10 85r15
+74e22 Z{character} 80r14 82r15 83m10 84r17 86m10 86r15
+76e7 Temp{character} 81m10 83r15
+91U14 Bokstaver 91b14 122l8 122t17 200s4
+93e7 A{character} 100m7 102m12 102r12 108r11 113r11 117r16
+94e7 Z{character} 101m7 102m14 102r14 110r11 115r11 117r19
+95r7 G_Az{7|50R9[16]} 100r19 101r19
+117e11 C{character} 119r14
+124V13 Tarnings_Sort{integer} 124b13 124=27 124=31 146l8 146t21 161s11
+124i27 Ts{integer} 126r44
+124i31 Tn{integer} 140r19
+126I15 Positive{integer} 127r61
+127K15 Posi_Tive[7|44] 128r11 130r20
+130r7 G_Positive{7|50R9[127]} 141r24
+131i7 N{integer} 137m7
+132i7 Sum{integer} 138m7 141m10 141r38 144r14
+140i11 I{integer}
+149U14 Tarningssort 149b14 163l8 163t20 204s4
+151i7 Ts{integer} 157m11 161m25 161r25
+151i11 Tn{integer} 159m11 161m29 161r29
+165U14 Rakna_Flyttal 165b14 165>28 183l8 183t21 205s4
+165r28 G_flyttal{9|47R9} 172r21
+167f7 X{float} 176m11 180r23 180r28
+167f10 Y{float} 178m11 180r21
+168f7 Xoy{float} 172m7 180m7 180r14 181r11
+186r4 G_flyttal{9|47R9} 196r15 205r18
+187r4 G_dice{7|50R9[12]}
+188r4 G_Az{7|50R9[16]}
+X 25 s-rannum.ads
+75V13*Random{16|74M9} 26|221i21
+76V13*Random{16|77M9} 26|221i21
+
