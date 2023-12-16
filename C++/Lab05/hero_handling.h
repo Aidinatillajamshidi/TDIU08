@@ -1,5 +1,3 @@
-// aidja644: Samarbetat med antfr919, Anton Fredriksson, samma program
-
 #ifndef HERO_HANDLING_H
 #define HERO_HANDLING_H
 
