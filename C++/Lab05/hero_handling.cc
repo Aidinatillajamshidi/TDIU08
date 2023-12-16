@@ -1,5 +1,3 @@
-// aidja644: Samarbetat med antfr919, Anton Fredriksson, samma program
-
 #include "hero_handling.h"
 #include "register_handling.h"
 
