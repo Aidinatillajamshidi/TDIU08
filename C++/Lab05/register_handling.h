@@ -1,5 +1,3 @@
-// aidja644: Samarbetat med antfr919, Anton Fredriksson, samma program
-
 #ifndef REGISTER_HANDLING_H
 #define REGISTER_HANDLING_H
 
