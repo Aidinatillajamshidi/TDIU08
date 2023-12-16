@@ -59,18 +59,6 @@ void return_nfak()
 }
 /*-------------------------------------------------------------------------*/
 //Underprogram: Val 2
-/*
-void mult_text(string const &text,
-	         int  const &multiplier)
-{
-  for (int i{0}; i < multiplier; i++)
-    {
-      cout << text;
-    }
-  cout << endl;
-}
-*/
-
 string mult_text(string const &text,
 		 int    const &multiplier)
 {
