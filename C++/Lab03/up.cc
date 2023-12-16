@@ -1,5 +1,3 @@
-// aidja644: Arbetat enskilt
-
 #include <iostream>
 #include <iomanip>
 #include <string>
